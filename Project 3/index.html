@@ -1,0 +1,254 @@
+<!-- Цель: создать при помощи таблиц баннер тарифного плана для прошлого проекта.
++ Вспомнить команды из прошлого урока;
++ Познакомиться с тегом <table>;
++ Познакомиться с тегом <caption>;
++ Познакомиться с тегами , <thead>, <tbody>, <th>, <tr> и <td>.
+- Познакомиться и применить CSS-свойство border-collapse;
+- Получить домашнее задание. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Лучшие игры</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <a href="#best_games" class="menuitem"><b>Лучшие игры</b></a>
+        <a href="#mmo" class="menuitem"><b>ММО</b></a>
+        <a href="#action" class="menuitem"><b>Action</b></a>
+        <a href="#shooter" class="menuitem"><b>Шутеры</b></a>
+        <a href="#indi" class="menuitem"><b>Инди</b></a>
+        <a href="#moba" class="menuitem"><b>Моба</b></a>
+    </div>
+    <h1 id="best_games"><i>Лучшие игры</i></id></h1>
+    <div class="card">
+        <img src="img/1.jpg">
+        <h3>Roblox <p class="r">&reg;</p></h3>
+        <p><i>Roblox Corporation</i></p>
+        <p><b>350</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+    <div class="card">
+        <img src="img/2.jpg">
+        <h3>Dota 2 <p class="r">&reg;</p></h3>
+        <p><i>Valve</i></p>
+        <p><b>200</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <div class="card">
+        <img src="img/3.png">
+        <h3>Minecraft <p class="r">&reg;</p></h3>
+        <p><i>Mojang Studios</i></p>
+        <p><b>700</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <div class="card">
+        <img src="img/4.png">
+        <h3>Among Us <p class="r">&reg;</p></h3>
+        <p><i>InnerSlath LLC</i></p>
+        <p><b>800</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <div class="card">
+        <img src="img/5.png">
+        <h3>Brawl Stars <p class="r">&reg;</p></h3>
+        <p><i>Supercell</i></p>
+        <p><b>750</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+    <div class="card">
+        <img src="img/6.png">
+        <h3>Terasology <p class="r">&reg;</p></h3>
+        <p><i>MovingBlocks</i></p>
+        <p><b>350</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <div class="card">
+        <img src="img/7.jpeg">
+        <h3>World of Warcraft <p class="r">&reg;</p></h3>
+        <p><i>Blizzard Entertainment</i></p>
+        <p><b>1000</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <div class="card">
+        <img src="img/8.png">
+        <h3>CS GO <p class="r">&reg;</p></h3>
+        <p><i>Valve</i></p>
+        <p><b>650</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <div class="card">
+        <img src="img/9.png">
+        <h3>GTA <p class="r">&reg;</p></h3>
+        <p><i>Rockstar North</i></p>
+        <p><b>950</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <div class="card">
+        <img src="img/10.jpeg">
+        <h3>World of Tanks <p class="r">&reg;</p></h3>
+        <p><i>Wargaming</i></p>
+        <p><b>750</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <h2 id="mmo"><i>ММО</i></h2>
+    <div class="card">
+        <img src="img/1.jpg">
+        <h3>Roblox <p class="r">&reg;</p></h3>
+        <p><i>Roblox Corporation</i></p>
+        <p><b>350</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <div class="card">
+        <img src="img/7.jpeg">
+        <h3>World of Warcraft <p class="r">&reg;</p></h3>
+        <p><i>Blizzard Entertainment</i></p>
+        <p><b>1000</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <h2 id="action"><i>Action</i></h2>
+    <div class="card">
+        <img src="img/9.png">
+        <h3>GTA <p class="r">&reg;</p></h3>
+        <p><i>Rockstar North</i></p>
+        <p><b>950</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <div class="card">
+        <img src="img/10.jpeg">
+        <h3>World of Tanks <p class="r">&reg;</p></h3>
+        <p><i>Wargaming</i></p>
+        <p><b>750</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <h2 id="shooter"><i>Шутеры</i></h2>
+    <div class="card">
+        <img src="img/9.png">
+        <h3>GTA <p class="r">&reg;</p></h3>
+        <p><i>Rockstar North</i></p>
+        <p><b>950</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <div class="card">
+        <img src="img/8.png">
+        <h3>CS GO <p class="r">&reg;</p></h3>
+        <p><i>Valve</i></p>
+        <p><b>650</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <h2 id="indi"><i>Инди</i></h2>
+    <div class="card">
+        <img src="img/3.png">
+        <h3>Minecraft <p class="r">&reg;</p></h3>
+        <p><i>Mojang Studios</i></p>
+        <p><b>700</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <div class="card">
+        <img src="img/4.png">
+        <h3>Among Us <p class="r">&reg;</p></h3>
+        <p><i>InnerSlath LLC</i></p>
+        <p><b>800</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <div class="card">
+        <img src="img/6.png">
+        <h3>Terasology <p class="r">&reg;</p></h3>
+        <p><i>MovingBlocks</i></p>
+        <p><b>350</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+    <h2 id="moba"><i>Моба</i></h2>
+    <div class="card">
+        <img src="img/5.png">
+        <h3>Brawl Stars <p class="r">&reg;</p></h3>
+        <p><i>Supercell</i></p>
+        <p><b>750</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <div class="card">
+        <img src="img/2.jpg">
+        <h3>Dota 2 <p class="r">&reg;</p></h3>
+        <p><i>Valve</i></p>
+        <p><b>200</b> руб.</p>
+        <a href="#" class="button">Купить</a>
+    </div>
+
+    <p class="text"><b>На нашем сайте Вы можете приобрести доступ к играм как по отдельности, так и по ежемесячной подписке!</b></p>
+    
+    <table>
+        <caption>Наши тарифы</caption>
+        
+        <thead>
+                <tr>
+                    <th class="basic">BASIC</th>
+                    <th class="pro">PRO</th>
+                    <th class="gold">GOLD</th>
+                    <th class="platinum">PLATINUM</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Доступ к 3 любым играм на выбор</td>
+                <td>Доступ к 5 любым играм на выбор</td>
+                <td>Доступ к 7 любым играм на выбор</td>
+                <td>Доступ ко всем играм</td>
+            </tr>
+            <tr class="gray">
+                <td>Круглосуточная поддержка</td>
+                <td>Круглосуточная поддержка</td>
+                <td>Круглосуточная поддержка</td>
+                <td>Круглосуточная поддержка</td>
+            </tr>
+            <tr>
+                <td>Библиотека постоянно</td>
+                <td>Библиотека постоянно</td>
+                <td>Библиотека постоянно</td>
+                <td>Библиотека постоянно</td>
+            </tr>
+            <tr class="gray">
+                <td></td>
+                <td>Эксклюзивные внутриигровые награды</td>
+                <td>Эксклюзивные внутриигровые награды</td>
+                <td>Эксклюзивные внутриигровые награды</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Доступ к играм за два дня до выхода</td>
+            </tr>
+            <tr>
+                <td class="price_wrapper"><p class="price_text">Купить за 199 рублей в месяц</p></td>
+                <td class="price_wrapper"><p class="price_text">Купить за 399 рублей в месяц</p></td>
+                <td class="price_wrapper"><p class="price_text">Купить за 599 рублей в месяц</p></td>
+                <td class="price_wrapper"><p class="price_text">Купить за 999 рублей в месяц</p></td>
+            </tr>
+            <tr>
+                <td><a href="#" class="buttton basic">Выбрать тариф</a></td>
+                <td><a href="#" class="buttton pro">Выбрать тариф</a></td>
+                <td><a href="#" class="buttton gold">Выбрать тариф</a></td>
+                <td><a href="#" class="buttton platinum">Выбрать тариф</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
