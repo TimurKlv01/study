@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital@1&display=swap');
+body{
+    background-color:#ffffff;
+    color: rgb(0,0,0);
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+h1{
+    text-shadow:5px 5px 5px black;
+    color: crimson;
+    font-size: 90px;
+    text-align: center;
+    background-color: #ff9400;
+}
+.favourite{
+    background-color: #00ffe3;
+    font-size: 60px;
+    text-shadow:  1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.f2{
+    color: blueviolet;
+    font-size: 60px;
+    background-color: rgb(15, 120, 30);
+    text-shadow:  1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.f3{
+    background-color: #f80303;
+    color:#0400ff;
+    font-size: 60px;
+    text-decoration: none;
+    text-shadow:  1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.f4{
+    background-color: #757810;
+    font-size: 60px;
+    text-shadow:  1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.f5{
+    background-color: #6b0867;
+    font-size: 60px;
+    text-shadow:  1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+.one{
+    font-size: 50px; 
+    color:#0400ff
+}
+.two{
+    font-size: 50px; 
+    color:#0400ff
+}
+.three{
+    font-size: 50px; 
+    color:#0400ff
+}
+.four{
+    font-size: 50px; 
+    color:#0400ff
+}
+.five{
+    font-size: 50px; 
+    color:#0400ff
+}
