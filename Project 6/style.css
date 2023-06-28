@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+.paper{
+    width: 1300px;
+    background-color: #e6e0d9;
+    margin: auto;
+    padding: 50px;
+}
+.header1{
+    height: 230px;
+    background: url("img/paper-head.PNG") center/cover no-repeat;
+}
+.header2{
+    height: 118px;
+    background: url("img/paper-sub-head.PNG") center/cover no-repeat;
+    margin-bottom: 20px;
+}
+.text{
+    border: 3px solid black;
+    overflow: scroll;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 0 10px 10px black ;
+}
+.text1_image{
+    opacity: 0.7;
+    float: right;
+}
+.text1_first{
+    font-family: 'Henny Penny', cursive;
+    line-height: 32px;
+}
+.column{
+    float: left;
+    width: 30%;
+    margin: 1% ;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 60px ;
+    font-family: 'Berkshire Swash', cursive;
+    text-shadow: 0 10px 10px black ;
+}
+.second_text{
+    font-family: 'Henny Penny', cursive;
+    line-height: 32px;
+}

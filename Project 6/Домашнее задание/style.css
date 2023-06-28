@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+.paper{
+    width: 700px;
+    background-color: #f5f8fd;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.header1{
+    height: 113px;
+    width: 650px;
+    background: url("img/pic0.PNG") center/cover no-repeat;
+    /* margin-bottom: 3px; */
+}
+.header2{
+    height: 160px;
+    width: 650px;
+    background: url("img/pic3.PNG") center/cover no-repeat;
+}
+.text_left{
+    display: inline-block;
+    width: 42%;
+    vertical-align: top;
+}
+.text_right{
+    display: inline-block;
+    width: 57%;
+    background-image: url("img/pic1.PNG");
+    background-position: center;
+    background-size: cover;
+    height: 613px;
+}
+.pic2{
+    background-image: url("img/pic2.PNG");
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 120px;
+    margin: auto;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.pic4{
+    background-image: url("img/pic4.PNG");
+    background-position: center;
+    background-size: cover;
+    height: 145px;
+}
+body{
+    font-family: 'Yeseva One', cursive;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.text{
+    width: 650px;
+}
+h2{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    background-color: #f54c39;
+    width: 650px;
+    box-sizing: border-box;
+    padding: 10px 0;
+}

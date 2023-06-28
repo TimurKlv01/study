@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    background-image: linear-gradient(45deg,#FF00FB,#B024E0,#2493E0);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+.main_title{
+    font-size: 90px;
+    color: white;
+    font-weight: bold;
+    transform: translateY(250px);
+}  
+.main_title:hover {
+    color: yellow;
+    
+}
+.main_button{
+    display: inline-block;
+    transform: translateY(300px) scale(1.5);
+    border-radius: 50%;
+    width: 42px;
+    height: 42px;
+    transition: 0.5s;
+
+}
+.main_button:hover{
+    transform: scale(1.9) translateY(156px);
+    animation-name: pulsar;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.my{
+    animation-name: wave;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.games1{
+    animation-name: wave;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.6s;
+}
+.hub{
+    animation-name: wave;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1.2s;
+}
+span{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes pulsar{
+    0%{
+        box-shadow: 0 0 10px yellow;
+    }
+    50%{
+        box-shadow: 0 0 50px yellow;
+    }
+    100%{
+        box-shadow: 0 0 10px yellow;
+    }
+}
+@keyframes wave{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
