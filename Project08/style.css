@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+.head{
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh ;
+    background-color: whitesmoke;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_title{
+    font-size: 200px;
+    margin: auto;
+    width: fit-content;
+}
+.title_blue{
+    color: blue;
+    opacity: 0.5;
+    position: relative;
+    bottom: 150px;
+    left: 40px;
+    z-index: 1;
+}
+.title_red{
+    color: red;
+    opacity: 0.5;
+    position: relative;
+    left: 20px;
+    z-index: 2;
+}
+.title_black{
+    color: black;
+    position: relative;
+    top: 150px;
+    z-index: 3;
+}
+.button{
+    display: block;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    width: 320px;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    text-decoration: none;
+}
+.red_btn{
+    width: 320px;
+    height: 60px;
+    background-color: red;
+    opacity: 0.5;
+}
+.blue_btn{
+    width: 320px;
+    height: 60px;
+    background-color: blue;
+    opacity: 0.5;
+}
+/* Почитать про позиционирование. Уметь отличать relative от static. Познакомиться с Position:absolute. Указать всем трем кнопочным блокам position:absolute. */
+/* Оно переносит тег из основного html кода в отдельное “измерение”. Абсолютно позиционированный элемент не влияет на остальные элементы в html */
