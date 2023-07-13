@@ -1,11 +1,11 @@
 <!-- Цель урока: Создать часть одностраничного сайта с применением всех предыдущих знаний и использованием позиционирования.
-- Повторение
-- Пишем исходные базовые стили
-- Верстаем nav-menu и стилизуем
-- Верстаем контентную часть шапки
-- Создаем фон секции
-- Анимируем элементы
-- Верстаем и стилизуем секцию “О нас”
++ Повторение
++ Пишем исходные базовые стили
++ Верстаем nav-menu и стилизуем
++ Верстаем контентную часть шапки
++ Создаем фон секции
++ Анимируем элементы
++ Верстаем и стилизуем секцию “О нас”
 - Верстаем страницу “Чем мы занимаемся”
 - Стилизуем страницу “Чем мы занимаемся”
 - Выводы
@@ -18,6 +18,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="menu">
+        <a href="#we_create_websites"><img src="img/logo.svg" class="logo"></a>"
+        <div class="menu_container">
+            <a href="#About_us" class="menu_item">О нас</a>
+            <a href="#doing" class="menu_item">Что мы делаем</a>
+            <a href="#" class="menu_item">Услуги</a>
+            <a href="#" class="menu_item">Преимущества</a>
+            <a href="#" class="menu_item">Портфолио</a>
+            <a href="#" class="menu_item">Связаться</a>
+        </div>
+    </div>
+    <div class="main_section" id="we_create_websites">
+        <div class="main_content">
+            <h1 class="main_title">Мы создаём сайты</h1>
+            <a href="#" class="main_content_btn">Познакомиться с нами</a>
+        </div>
+        <div class="main_background">
+            <img src="img/background/circle1.svg" class="circle1">
+            <img src="img/background/circle2.svg" class="circle2" >
+            <img src="img/background/circle3.svg" class="circle3">
+            <img src="img/background/circle-bordered.svg" class="circle-bordered" >
+            <img src="img/background/circle-dashed-border.svg" class="circle-dashed-border">
+            <img src="img/background/triangle.svg" class="triangle">
+            <img src="img/background/octagon.svg" class="octagon">
+        </div>
+    </div>
+    <div class="About_us" id="About_us">
+        <div class="container">
+            <h2 class="section_title">О нас</h2>
+            <p class="section_text"> Наше агентство занимается созданием и поддержкой веб-сайтов. Вы можете заказать у нас, как полный цикл разработки, так и доработку уже готового сайта. 
+                Мы обладаем большим опытом и хорошими отзывами. Всегда стремимся сделать свою работу качественно и в оговоренные сроки. А цены у нас одни из самых низких на рынке.</p>
+        </div>
+    </div>
+    <div class="doing" id="doing">
+        <div class="container">
+            <div class="doing_left">
+                <h2 class="section_title">
+                    Что мы делаем
+                </h2>
+                <p class="section_text doing_text">
+                    Обращаясь к нам, вы можете рассчитывать на создание отличного сайта. В наши услуги входит полный цикл разработки сайта. Мы поможем вам создать дизайн сайта и подготовим необходимые исходники. Далее происходит верстка и написание логики сайта. Дальше сайт поступает в ваше распоряжение и вы используете его по своему усмотрению. При возникновении потребности, мы можем осуществлять поддержку сайта и его сопровождение, в течении всего жизнного цикла.
+                </p>
+            </div>
+            <div class="doing_right">
+                <img src="img/background/pic.svg">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
