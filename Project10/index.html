@@ -6,14 +6,15 @@
 + Создаем фон секции
 + Анимируем элементы
 + Верстаем и стилизуем секцию “О нас”
-- Верстаем страницу “Чем мы занимаемся”
-- Стилизуем страницу “Чем мы занимаемся”
++ Верстаем страницу “Чем мы занимаемся”
++ Стилизуем страницу “Чем мы занимаемся”
 - Выводы
 - Домашнее задание-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Разработка сайтов</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -23,10 +24,10 @@
         <div class="menu_container">
             <a href="#About_us" class="menu_item">О нас</a>
             <a href="#doing" class="menu_item">Что мы делаем</a>
-            <a href="#" class="menu_item">Услуги</a>
-            <a href="#" class="menu_item">Преимущества</a>
-            <a href="#" class="menu_item">Портфолио</a>
-            <a href="#" class="menu_item">Связаться</a>
+            <a href="#services" class="menu_item">Услуги</a>
+            <a href="#advantages" class="menu_item">Преимущества</a>
+            <a href="#portfolio" class="menu_item">Портфолио</a>
+            <a href="#the_end" class="menu_item">Связаться</a>
         </div>
     </div>
     <div class="main_section" id="we_create_websites">
@@ -55,7 +56,7 @@
         <div class="container">
             <div class="doing_left">
                 <h2 class="section_title">
-                    Что мы делаем
+                    Что мы делаем?
                 </h2>
                 <p class="section_text doing_text">
                     Обращаясь к нам, вы можете рассчитывать на создание отличного сайта. В наши услуги входит полный цикл разработки сайта. Мы поможем вам создать дизайн сайта и подготовим необходимые исходники. Далее происходит верстка и написание логики сайта. Дальше сайт поступает в ваше распоряжение и вы используете его по своему усмотрению. При возникновении потребности, мы можем осуществлять поддержку сайта и его сопровождение, в течении всего жизнного цикла.
@@ -64,6 +65,85 @@
             <div class="doing_right">
                 <img src="img/background/pic.svg">
             </div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <div class="container">
+            <h2 class="services_title section_title">Наши основные услуги</h2>
+            <div class="services_cell">
+                <img src="img/icons/design.svg">
+                <h2 class="services_title1">Дизайн сайта</h2>
+                <hr class="services_hr">
+                <p class="section_text">Создание дизайн-макета, по вашим пожеланиям.</p>
+            </div>
+            <div class="services_cell">
+                <img src="img/icons/development.svg">
+                <h2 class="services_title1">Верстка</h2>
+                <hr class="services_hr">
+                <p class="section_text">Полноценная верстка сайта, его настройка и проверка на баги.</p>
+            </div>
+            <div class="services_cell">
+                <img src="img/icons/support.svg">
+                <h2 class="services_title1">Поддержка</h2>
+                <hr class="services_hr">
+                <p class="section_text">Поддержка сайта во время его работы.</p>
+            </div>
+        </div>
+    </div>
+    <div class="advantages" id="advantages">
+        <div class="container">
+            <div class="advantages_content">
+                <h2 class="section_title">Почему мы хороши?</h2>
+                <div class="advantages_card card1">
+                    <h3 class="advantages_card_title"> В дизайне</h3>
+                    <ul class="advantages_list">
+                        <li class="section_text">Опытная команда дизайнеров</li>
+                        <li class="section_text">Внимание к деталям</li>
+                        <li class="section_text">Фильтрация идей</li>
+                    </ul>
+                </div>
+                <div class="advantages_card card2">
+                    <h3 class="advantages_card_title"> В разработке</h3>
+                    <ul class="advantages_list">
+                        <li class="section_text">Огромный багаж собственных библиотек и плагинов</li>
+                        <li class="section_text">Мы любим чистый, красивый и масштабируемый код</li>
+                        <li class="section_text">Планируем архитектуру сайта</li>
+                    </ul>
+                </div>
+                <div class="advantages_card card3">
+                    <h3 class="advantages_card_title"> В поддержке</h3>
+                    <ul class="advantages_list">
+                        <li class="section_text">Самая дружелюбная тех поддержка</li>
+                        <li class="section_text">Работаем 24/7</li>
+                        <li class="section_text">Чем дольше поддержка, тем дешевле стоимость</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="adv_bg">
+                <img src="img/background/advantages_bg_1.svg" class="advantages_circle">
+                <img src="img/background/advantages_bg_2.svg" class="advantages_octagon">
+            </div>
+        </div>
+    </div>
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section_title">Почему мы хороши?</h2>
+            <table class="portfolio_table">            
+                    <tr class="table_row">
+                        <td class="portfolio_cell cell1"></td>
+                        <td class="portfolio_cell cell2"></td>
+                    </tr>
+                    <tr class="table_row">
+                        <td class="portfolio_cell cell3"></td>
+                        <td class="portfolio_cell cell4"></td>
+                    </tr>
+            </table>
+        </div>
+    </div>
+    <div class="the_end" id="the_end">
+        <div class="container">
+            <h2 class="section_title">Напишите нам</h2>
+            <a href="#" class="main_content_btn">Написать нам</a>
         </div>
     </div>
 </body>
