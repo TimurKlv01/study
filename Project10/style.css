@@ -287,6 +287,17 @@
 .the_end{
     background: linear-gradient(#e38f83,#fcc294);
 }
+.portfolio_mobile{
+    display: none;
+}
+.portfolio_mobile_cell{
+    display: block;
+    border: 3px solid red;
+    border-radius: 15px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px ;
+}
 
 
 
@@ -385,7 +396,7 @@
         height: fit-content;
     }
     .logo{
-        width: 100px;
+        width: 150px;
     }
     .menu_item{
         display: block;
@@ -406,6 +417,7 @@
     }
     .section_text{
         font-size: 16px;
+        line-height: 22px;
     }
     .doing_left{
         display: block;
@@ -414,5 +426,48 @@
     .doing_right{
         display: block;
         width: 100%;
+    }
+    .doing_text{
+        border: 1px solid red;
+    }
+    .services_cell{
+        display: block;
+        width: 100%;
+        margin-top: 15px;
+    }
+    .services_hr{
+        margin: 10px 120px;
+    }
+    .advantages_card{
+        width: 100%;
+        height: 180px;
+        padding-top: 30px;
+        box-shadow: 0px 7px 2px red ;
+    }
+    .card1{
+        position: relative;
+        left: 0 ;
+    }
+    .card2{
+        position: relative;
+        left: 0;
+    }
+    .card3{
+        position: relative;
+        left: 0 ;
+    }
+    .advantages_octagon{
+        position: absolute;
+        width: 500px ;
+        right: 50%;
+        transform: translateX(50%);
+    }
+    .portfolio_mobile{
+        display: block;
+    }
+    .portfolio_table{
+        display: none;
+        width: 100%;
+        height: 600px;
     }
 }
