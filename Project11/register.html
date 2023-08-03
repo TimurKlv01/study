@@ -4,21 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Регистрация</title>
 </head>
 <body>
-    <h1></h1>
-    <hr>
-    <p></p>
+    <h1 class="main_title">Школа программирования "Hello World"</h1>
+    <hr class="header_hr">
+    <p class="p1">Здравствуйте! Мы очень рады, что <i>Вы</i> решили присоединиться к нам!<br>Пожалуйста, заполните форму регистрации ниже</p>
     <form action="#">
         <div class="action">
-            <a href="" class="sign_in">Войти</a>
-            <a href="" class="sign_up active">Регистрация</a>
+            <a href="join.html" class="sign_in">Войти</a>
+            <a href="register.html" class="sign_up active">Регистрация</a>
         </div>
         <div class="fields">        
             <p>Придумай логин</p>
             <input type="text" placeholder="Придумай логин">
+            <p>Придумай пароль</p>
+             <input type="text" placeholder="Придумай пароль">
+             <p>Выбери пол</p>
+             <div class="wrapper">
+                <input type="radio" name="pol">
+                <p>Мужской</p>
+                <input type="radio" name="pol">
+                <p>Женский</p>
+             </div>
+             <p>Выбери желаемые курсы</p>
+             <div class="wrapper">
+                <input type="checkbox"> <p>Frontend</p> 
+                <input type="checkbox"> <p>Roblox</p> 
+                <input type="checkbox"> <p>Figma</p> 
+                <input type="checkbox"> <p>Scratch</p> 
+                <input type="checkbox"> <p>Python</p> 
+                <input type="checkbox"> <p>Unity</p>
+             </div>
+             <p>Расскажи немного о себе, о своих достижениях и мечтах</p>
+             <textarea rows="5" cols="50" placeholder="Расскажи о себе" class="about_textarea"></textarea>
         </div>
+        <input type="button" value="Зарегистрироваться" class="button">
+        <hr class="end_hr">
     </form>
 </body>
 </html>

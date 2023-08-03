@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <div class="form_head">
+            <a href="index.html" class="form_back_btn">
+                &#60;
+            </a>
+            <h2 class="joining">Заявка на вступление</h2>
+        </div>
+        <div class="form_body">
+            <fieldset class="nickname_field">
+                <legend>Ваш никнейм в реальной жизни :)</legend>
+                <input type="text" placeholder="Имя" name="name" class="fname">
+                <input type="text" placeholder="Фамилия" name="surname" class="fsurname">
+            </fieldset>
+            <div class="form_body1">
+                <p class="section_title">Ваш пол</p>
+                <div class="wrapper">
+                    <input type="radio" name="gender" value="male" id="male_radio">
+                    <label for="male_radio">M</label>
+                    <input type="radio" name="gender" value="female" id="female_radio">
+                    <label for="female_radio">Ж</label>
+                </div>
+                <div class="wrapper">
+                    <input type="checkbox" class="age" id="age">
+                    <label for="age">Мне есть 18</label>
+                </div>
+            </div>
+            <div class="wrapper">
+                <label for="games">Ваша дисциплина</label>
+                <select id="games">
+                    <option value="cs_go">
+                        CS:GO
+                    </option>
+                    <option value="dota2">
+                        Dota2
+                    </option>
+                    <option value="apex_legends">
+                        Apex legends
+                    </option>
+                </select>
+            </div>
+            <textarea name="additional_information" placeholder="Дополнительная информация" class="additional_information"></textarea>
+            <button>Отправить заявку</button>
+        </div>
+    </form>
+</body>
+</html>
+<!-- fieldset -->
+<!-- legend -->

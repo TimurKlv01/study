@@ -65,22 +65,16 @@ form{
     margin: 30px;
 }
 .wrapper{
-    text-align: center;
+    text-align: left;
+    margin: 10px;
+    transform: translateX(17px);
 }
 .wrapper p{
     display: inline;
-    margin-right: 20px;
+    color: #bbb;
 }
 .wrapper input{
     width: auto;
-}
-textarea{
-    width: 90%;
-    background-color: #60428e;
-    border: none;
-    border-radius: 15px;
-    opacity: 0.8;
-    text-align: center;
 }
 .button{
     width: 90%;
@@ -104,4 +98,13 @@ textarea{
     background-color: gray;
     border: none;
     margin-top: 20px;
+}
+.password{
+    display: block;
+    margin: auto;
+    color: #bbb;
+    text-decoration: none;
+}
+.password:hover{
+    color: red;
 }
