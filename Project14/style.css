@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.background{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    object-position: top;
+    opacity: 0.3;
+    filter: hue-rotate(190deg) ;
+    z-index: -1;
+}
+.menu img{
+    width: 40px;
+}
+.menu{
+    background-color: white;
+    box-shadow: 5px 5px 5px #aaa;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+}
+.logo{
+    text-align: center;
+}
+/* .nav a:hover img */
